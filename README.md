@@ -74,3 +74,35 @@ The system monitors the driver's eyes and triggers an audible alarm when prolong
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd driver-drowsiness-detection
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/zoyaain13/driver-drowsiness-project.git
+
+# Step 2: Open the project folder
+cd driver-drowsiness-project
+
+# Step 3: Create a virtual environment
+python -m venv .venv
+
+# Step 4: Activate the environment (Windows)
+.venv\Scripts\activate
+
+# Step 5: Install dependencies
+pip install -r requirements.txt
+
+# Step 6: Run the application
+python main.py
+```
+
+## 9. Limitations
+
+- The system requires a working webcam.
+- Face detection may be affected by lighting, head position and camera quality.
+- The system is an academic prototype and is not intended to replace certified driver-safety systems.
+
+## 10. Future Enhancements
+
+- Improve eye detection under different lighting conditions.
+- Add head-pose and yawning detection.
+- Improve robustness across different users and camera positions.
+- Develop a user-friendly interface for practical use.
