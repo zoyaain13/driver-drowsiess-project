@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+archive.zip
+dataset/
+train/
+test/
+val/
+.vscode/
